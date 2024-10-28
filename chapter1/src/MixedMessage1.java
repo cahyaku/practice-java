@@ -25,27 +25,13 @@ public class MixedMessage1 {
 //            y = y + x;
 
             //5. penjelasannya nyusul aja
-//            if (y < 5) {
-//                x = x + 1;
-//                if (y < 3) {
-//                    x  = x - 1;
-//                }
-//            }
-//            y = y + 2;
-
-
-            //6. Penjelasan juga nanti cahya isi
-
             if (y < 5) {
                 x = x + 1;
                 if (y < 3) {
                     x  = x - 1;
                 }
             }
-//            y = y + 3;
-//                        x = x + 1;
-            y = y + x;
-//y = y + 2;
+            y = y + 2;
             System.out.println(x + " " + y);
 
             x = x + 1;
