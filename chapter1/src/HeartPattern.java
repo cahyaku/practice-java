@@ -39,7 +39,7 @@ public class HeartPattern {
 
 //        final String msg = "Cahya Kumala";
 //        final String msg = "BUNDA LOPEZZ";
-        final String msg = "AYONG KUMALA";
+        final String msg = "AYONG";
 
         // nested for loop to print the upper part of Heart
         for (int m = 0; m < size; m++) {

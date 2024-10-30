@@ -6,7 +6,8 @@ public class TapeDeckTestDrive {
         tapeDeck1.canRecord = true;
         tapeDeck1.playTape();
 
-        if(tapeDeck1.canRecord == true) {
+        // Ini untuk cek apakah nilainya true
+        if(tapeDeck1.canRecord) {
             tapeDeck1.recordTape();
         }
 
