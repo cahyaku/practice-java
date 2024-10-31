@@ -1,11 +1,13 @@
-### Masih kosong, baca aja dulu bukunya ☻ 
+### Masih kosong, baca aja dulu bukunya ☻
 
 #### Inisiatif sendiri („• ֊ •„)੭
+
 ```
 1. Heart pattern
 ```
 
 ##### Chapter 1
+
 ```
 1. exercise 1 (code magnet) => page 20 (file Shuffle1)
 2. exercise 2 (page 21)
@@ -15,6 +17,7 @@
 ```
 
 ##### Chapter 2
+
 ```
 1. Create guess game
     - class GuessGame -> isinya logic
@@ -23,7 +26,34 @@
 2. exercise 1(page 42) -> compiler
     - class TapeDeck dan runnya di TapeDeckTestDrive
     - class DVDPlayer dan class DVDPlayerTestDrive
-3. exercise 2(code magnet) -> page 43(class DrumKit dan class DrumKitTestDrive)
-4. exercise 3 puzzle 
+3. exercise 2(code magnet) -> page 43 (class DrumKit dan class DrumKitTestDrive)
+4. exercise 3 puzzle -> page 44 (class Echo, dan class EchoTestDriver)
+```
+
+##### Chapter 3
 
 ```
+1. Try to create simple array (class Dog)
+2. Exercise 1 page 63 (be the compailer)
+   - exercise A => class Books  and class BooksTestDrive
+   - exercise B => class Hobbies 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
