@@ -11,6 +11,7 @@ public class Dog {
 
         // make a dog array
         Dog[] myDogs = new Dog[3];
+
         // put some dogs in it
         myDogs[0] = new Dog();
         myDogs[1] = new Dog();

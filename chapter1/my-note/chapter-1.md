@@ -35,8 +35,10 @@
 ```
 1. Try to create simple array (class Dog)
 2. Exercise 1 page 63 (be the compailer)
-   - exercise A => class Books  and class BooksTestDrive
-   - exercise B => class Hobbies 
+   - exercise A => class Books and class BooksTestDrive
+   - exercise B => class Hobbits
+3. Exercise 2 page 64 (code magnet) => class TestArrays
+
 ```
 
 
