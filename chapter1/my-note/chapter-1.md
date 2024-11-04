@@ -38,7 +38,8 @@
    - exercise A => class Books and class BooksTestDrive
    - exercise B => class Hobbits
 3. Exercise 2 page 64 (code magnet) => class TestArrays
-
+4. Exercise 3 page 65 (pool puzzle) => class Triangle
+5. Exercise 4 page 66 => class HeapQuiz
 ```
 
 
