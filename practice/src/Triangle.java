@@ -22,10 +22,10 @@ public class Triangle {
         Triangle t5 = triangle[2];
         triangle[2].area = 343;
         System.out.print("y = " + y);
-        System.out.println(", t 5 area =  " + t5.area);
+        System.out.println(", t5 area = " + t5.area);
     }
 
     void setArea() {
-        area = (height * length) / 2;
+        area = (double) (height * length) / 2;
     }
 }

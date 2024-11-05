@@ -42,7 +42,11 @@
 5. Exercise 4 page 66 => class HeapQuiz
 ```
 
+##### Chapter 4
 
+```
+1. Membuat class sederhana dengan 1 method tetapi berbeda instance variabel => class MyDog, dan run di MyDogTestDrive. 
+```
 
 
 

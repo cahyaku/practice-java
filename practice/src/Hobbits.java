@@ -5,10 +5,10 @@ public class Hobbits {
         // ini salah
         Hobbits[] hobbits = new Hobbits[3];
 
-        // int z = 0; ini harus -1, karena ada + 1 dalam while.
+        // int z = 0; z harus = -1, karena ada + 1 dalam while, dan array hanya dimulai dari nol.
         int z = -1;
 
-        // Ingat array iitu dimulai dari 0, jadi wajib sama jumlahnya
+        // Ingat array itu dimulai dari 0, jadi wajib sama jumlahnya
         // kalau tidak pakai array.length
         while (z < 2) {
             z = z + 1;
