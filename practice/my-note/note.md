@@ -46,6 +46,15 @@
 
 ```
 1. Membuat class sederhana dengan 1 method tetapi berbeda instance variabel => class MyDog, dan run di MyDogTestDrive. 
+2. Getter dan setter di page 79 => same in class MyDog dan di run di MyDogTestDrive.
+3. Encapsulation page 82 => same in class MyDog, dan di run di MyDogTestDrive.
+4. Create array juga ada di page 83.
+5. Bedanya instance varibale dan local variabel ada di page 85 
+    Singkatnya instance varibel hanya dibuat tanpa adanya method.
+    Sedangkan local variabel declared within a method, jadi ada instance variable dan digunakan di dalam method.
+    dan local variabel harus di initialize terlebih dahulu, misal int x; / int x = 9 => baru bisa int z = x + 3;
+    
+
 ```
 
 

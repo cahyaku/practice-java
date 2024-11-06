@@ -2,17 +2,23 @@ public class MyDogTestDrive {
     public static void main(String[] args) {
         // create a new object for myDog
         MyDog myDogUci = new MyDog();
-        myDogUci.size = 5;
+
+        // ini tidak bisa karena instance variable private
+//        myDogUci.size = 5;
+        // jadi pakai yang public method, get size.
+        myDogUci.setSize(5);
 
         // create another object of myDog
         MyDog myDogCherry = new MyDog();
-        myDogCherry.size = 70;
+        //tidak bisa karena instance variabel = private, myDogCherry.size = 70;, jadi:
+        myDogCherry.setSize(70);
 
         MyDog myDogFrank = new MyDog();
-        myDogFrank.size = 30;
+        // tidak bisa karena insatance variabel = private, myDogFrank.size = 30;, jadi:
+        myDogFrank.setSize(30);
 
-        myDogUci.bark();
-        myDogCherry.bark();
-        myDogFrank.bark();
+        myDogUci.bark(2);
+        myDogCherry.bark(3);
+        myDogFrank.bark(1);
     }
 }
