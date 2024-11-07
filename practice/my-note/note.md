@@ -47,19 +47,25 @@
 ```
 1. Membuat class sederhana dengan 1 method tetapi berbeda instance variabel => class MyDog, dan run di MyDogTestDrive. 
 2. Getter dan setter di page 79 => same in class MyDog dan di run di MyDogTestDrive.
-3. Encapsulation page 82 => same in class MyDog, dan di run di MyDogTestDrive.
+3. Encapsulation page 82 => same in class MyDog, dan di run di MyDogTestDrive (encapsulation mencangkup private, pablic dan protected).
 4. Create array juga ada di page 83.
 5. Bedanya instance varibale dan local variabel ada di page 85 
     Singkatnya instance varibel hanya dibuat tanpa adanya method.
     Sedangkan local variabel declared within a method, jadi ada instance variable dan digunakan di dalam method.
     dan local variabel harus di initialize terlebih dahulu, misal int x; / int x = 9 => baru bisa int z = x + 3;
-    
+6. Exercise 1 (be the compiler) page 88 => class XCopy, dan (class Clock, ClockTestDrive)
+7. Argument adalah nilai aktual (value) yang diberikan kepada fungsi atau method saat dipanggil.
+8. Exercise 2 (mixed message) page 90 => class Mix4.
+9. Exercise 3 (pool puzzle) page 91 => class Puzzle4 dan class puzzle4b
 
+
+ 
+ 
 ```
 
 
 
-
+    
 
 
 
