@@ -1,6 +1,6 @@
-### Masih kosong, baca aja dulu bukunya ☻
+### ⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆ Masih kosong, baca aja dulu bukunya ☻
 
-#### Inisiatif sendiri („• ֊ •„)੭
+#### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
 ```
 1. Heart pattern
@@ -57,11 +57,18 @@
 7. Argument adalah nilai aktual (value) yang diberikan kepada fungsi atau method saat dipanggil.
 8. Exercise 2 (mixed message) page 90 => class Mix4.
 9. Exercise 3 (pool puzzle) page 91 => class Puzzle4 dan class puzzle4b
-
-
- 
- 
 ```
+
+##### Chapter 5
+
+```
+1. Create Battleship-style, game(Sink a Dot Com)
+2.
+3.
+4.
+5.
+```
+
 
 
 
