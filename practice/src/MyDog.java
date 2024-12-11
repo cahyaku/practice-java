@@ -7,7 +7,8 @@ public class MyDog {
 
 
     /**
-     * Getter dan setter
+     * Getter dan setter, ini yang akan digunakan untuk mengganti value instance variable
+     * karena instance variable untuk size sudah diset private, dan tidak bisa diakses dengan nama object.instancevariabelnya
      */
     public int getSize() {
         return size;
