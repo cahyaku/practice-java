@@ -15,7 +15,7 @@ public class MyDogTestDrive {
         myDogCherry.setSize(70);
 
         MyDog myDogFrank = new MyDog();
-        // tidak bisa karena insatance variabel = private, myDogFrank.size = 30;, jadi:
+        // tidak bisa karena insatance variabel = private, myDogFrank.size = 30;, jadi harus pakai setternya:
         myDogFrank.setSize(30);
 
         myDogUci.bark(2);

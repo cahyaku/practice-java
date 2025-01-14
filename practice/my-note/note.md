@@ -63,8 +63,9 @@
 
 ```
 1. Create Battleship-style, game(Sink a Dot Com)
-2.
-3.
+2. Class Output, dalam class tersebut membuat object dan memanggil method yang dimiliki,
+   yang ada pada Class output => page 118.
+3. 
 4.
 5.
 ```
