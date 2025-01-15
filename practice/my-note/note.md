@@ -1,10 +1,37 @@
 ### ⋆꙳•̩̩͙❅*̩̩͙‧͙ ‧͙*̩̩͙❆ ͙͛ ˚₊⋆ Masih kosong, baca aja dulu bukunya ☻
 
+#
+
+#
+
+```angular2html
+Untuk mengingat saja:
+1. Break untuk keluar dari loop (tidak langsung keluar dari program).
+2. Return akan langsung keluar dari loop. Return akan mengakhiri fungsi dan mengembalikan kontrol ke fungsi pemanggil.
+3. Continue tidak akan keluar dari loop, tapi continue akan melewati iterasi loop saat ini dan melanjutkan ke-iterasi berikutnya.
+
+Perbedaan Break dan Return:
+- return mengakhiri fungsi, dan menyebabkan eksekusi seluruh method berhenti.
+- break hanya akan mengakhiri loop saja.
+```
+
+#             
+
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
 ```
 1. Heart pattern
 ```
+
+#### Beberapa hal yang masih ragu (perlu di cek ulang/debug)
+
+```angular2html
+1. Class MultiFor => page 119, karena x = 2, masih memenuhi syarat looping tapi hasilnya tidak ditampilkan dalam print.
+```
+
+#
+
+#
 
 ##### Chapter 1
 
@@ -65,8 +92,8 @@
 1. Create Battleship-style, game(Sink a Dot Com)
 2. Class Output, dalam class tersebut membuat object dan memanggil method yang dimiliki,
    yang ada pada Class output => page 118.
-3. 
-4.
+3. Class Multifor => page 119, membuat for dalam for.
+4. Class MixFor5 (mixed messages) => page 121, tinggal salin ke buku head First Java. 
 5.
 ```
 
