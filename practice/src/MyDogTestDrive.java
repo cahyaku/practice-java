@@ -11,15 +11,17 @@ public class MyDogTestDrive {
         // create another object of myDog
         MyDog myDogCherry = new MyDog();
 
-        //tidak bisa karena instance variabel = private, myDogCherry.size = 70;, jadi harus menggunakan method setternya sbg berikut:
+        //tidak bisa karena instance variabel = private, myDogCherry.size = 70; jadi harus menggunakan method setternya sbg berikut:
         myDogCherry.setSize(70);
 
         MyDog myDogFrank = new MyDog();
-        // tidak bisa karena insatance variabel = private, myDogFrank.size = 30;, jadi harus pakai setternya:
+        // tidak bisa karena insatance variabel = private, myDogFrank.size = 30; jadi harus pakai setternya:
         myDogFrank.setSize(30);
 
         myDogUci.bark(2);
         myDogCherry.bark(3);
         myDogFrank.bark(1);
+
+        System.out.println(myDogUci.getSize());
     }
 }
