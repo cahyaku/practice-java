@@ -13,7 +13,7 @@ public class MixFor5 {
 //                x = x + 2; ini akan menghasilkan 45 dan 6
 //                x++; ini akan menghasilkan 36 dan 6
 //                x--; ini akan menghasilkan 18 dan 6
-//                x = x + 0; ini akan menghasilkan 6 dan 14
+                x = x + 0; //ini akan menghasilkan 6 dan 14
 
                 y = y - 2;
                 if (x == 6) {
