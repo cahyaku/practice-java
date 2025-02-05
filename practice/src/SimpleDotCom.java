@@ -17,7 +17,10 @@ public class SimpleDotCom {
 
         for (int cell : locationCells) {
 
-            // memeriksa hasil
+            /**
+             * Memeriksa hasil input tebakan
+             * Tapi ini masih salah karena setiap tebakan masih di set sebagai hit.
+             */
             if (guess == cell) {
                 result = "Hit";
                 numberOfHints++;

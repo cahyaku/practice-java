@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                         
+#                          
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -95,7 +95,9 @@ Perbedaan Break dan Return:
 3. Class Multifor => page 119, membuat for dalam for.
 4. Class MixFor5 (mixed messages) => page 121, tinggal salin ke buku head First Java. 
 5. Class SimpleDotCom (convert string into int) Integer.parseInt() => page 106 dan class SimpleDotComTestDrive
-   untuk menjalankan logic yang ada pada class SimpleDotCom dan beberapa tambahan pada page 110.
+   untuk menjalankan logic yang ada pada class SimpleDotCom dan beberapa tambahan pada page 110,
+   ini akan ada improved pada chapter 6 untuk mengganti nama class dan mekanisme pengecekan.
+   Tapi saya memilih mmebuat clas baru yang di beri nama DotCom class. 
 6. Class GameHelper yang akan dipanggil pada class simpleDotComTestDrive => page 112.
 ```
 
