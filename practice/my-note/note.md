@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                          
+#                           
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -99,6 +99,8 @@ Perbedaan Break dan Return:
    ini akan ada improved pada chapter 6 untuk mengganti nama class dan mekanisme pengecekan.
    Tapi saya memilih mmebuat clas baru yang di beri nama DotCom class. 
 6. Class GameHelper yang akan dipanggil pada class simpleDotComTestDrive => page 112.
+7. Class DotComBust > ini start dari page 144 (prep code).
+
 ```
 
 ----------------
