@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                           
+#                                
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -33,7 +33,7 @@ Perbedaan Break dan Return:
 
 #
 
-##### Chapter 1
+##### Chapter 1 Breaking The Surface
 
 ```
 1. exercise 1 (code magnet) => page 20 (file Shuffle1)
@@ -43,7 +43,7 @@ Perbedaan Break dan Return:
 5. TTS
 ```
 
-##### Chapter 2
+##### Chapter 2 A trip to Objectville
 
 ```
 1. Create guess game
@@ -57,7 +57,7 @@ Perbedaan Break dan Return:
 4. exercise 3 puzzle -> page 44 (class Echo, dan class EchoTestDriver)
 ```
 
-##### Chapter 3
+##### Chapter 3 Know Your Variable
 
 ```
 1. Try to create simple array (class Dog)
@@ -69,7 +69,7 @@ Perbedaan Break dan Return:
 5. Exercise 4 page 66 => class HeapQuiz
 ```
 
-##### Chapter 4
+##### Chapter 4 How Objects Behave
 
 ```
 1. Membuat class sederhana dengan 1 method tetapi berbeda instance variabel => class MyDog, dan run di MyDogTestDrive. 
@@ -86,7 +86,7 @@ Perbedaan Break dan Return:
 9. Exercise 3 (pool puzzle) page 91 => class Puzzle4 dan class puzzle4b
 ```
 
-##### Chapter 5
+##### Chapter 5 Extra-Strength Methods
 
 ```
 1. Create Battleship-style, game(Sink a Dot Com)
@@ -99,7 +99,15 @@ Perbedaan Break dan Return:
    ini akan ada improved pada chapter 6 untuk mengganti nama class dan mekanisme pengecekan.
    Tapi saya memilih mmebuat clas baru yang di beri nama DotCom class. 
 6. Class GameHelper yang akan dipanggil pada class simpleDotComTestDrive => page 112.
-7. Class DotComBust > ini start dari page 144 (prep code).
+
+```
+
+##### Chapter 6 Using the Java Library
+
+```angular2html
+1. Fix the DotCom code (improved DotCom class).
+2. Class DotComBust -> start from page 146.
+3. Final version of the DotCom class, because have to add a new getter and setter method (page 150).
 
 ```
 

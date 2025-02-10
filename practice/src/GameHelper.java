@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class GameHelper {
     public String getUserInput(String prompt) {
@@ -19,5 +20,9 @@ public class GameHelper {
             System.out.println("IOException: " + e);
         }
         return inputLine;
+    }
+
+    public ArrayList<String> placeDotCom(int i) {
+        return null;
     }
 }
