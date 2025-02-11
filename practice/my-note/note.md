@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                
+#                                            
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -99,7 +99,6 @@ Perbedaan Break dan Return:
    ini akan ada improved pada chapter 6 untuk mengganti nama class dan mekanisme pengecekan.
    Tapi saya memilih mmebuat clas baru yang di beri nama DotCom class. 
 6. Class GameHelper yang akan dipanggil pada class simpleDotComTestDrive => page 112.
-
 ```
 
 ##### Chapter 6 Using the Java Library
@@ -108,13 +107,17 @@ Perbedaan Break dan Return:
 1. Fix the DotCom code (improved DotCom class).
 2. Class DotComBust -> start from page 146.
 3. Final version of the DotCom class, because have to add a new getter and setter method (page 150).
+4. Improve GameHelper class page 152 - 153.
+5. Exercise code magnet -> Class ArrayListMagnet.
 
+Java library atau Java API adalah sebuah library yang ditulis sebelumnya yang bebas digunakan,
+termasuk ke dalam Java Development Environment.
 ```
 
 ----------------
 sedikit tambahan
 ----------------
-Java pass by value => chapeter 4 page 77.
+Java pass by value => chapter 4 page 77.
 
     
 
