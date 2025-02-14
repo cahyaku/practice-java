@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                            
+#                                                          
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -107,18 +107,41 @@ Perbedaan Break dan Return:
 1. Fix the DotCom code (improved DotCom class).
 2. Class DotComBust -> start from page 146.
 3. Final version of the DotCom class, because have to add a new getter and setter method (page 150).
-4. Improve GameHelper class page 152 - 153.
-5. Exercise code magnet -> Class ArrayListMagnet.
+4. Improve GameHelper class, page 152 - 153.
+5. Exercise code magnet -> Class ArrayListMagnet, page 161.
+6. Materi java.util (Java API) -> 159.
 
 Java library atau Java API adalah sebuah library yang ditulis sebelumnya yang bebas digunakan,
 termasuk ke dalam Java Development Environment.
+
+// Example arrayList dan cara menambahkan datanya ada di class ArrayListMagnet.
+- Untuk menambahkan sesuatu kedalam arrayList bisa dengan menggunakan method add().
+- Untuk menghapus data dari arrayList bisa menggunakan method remove().
+- Untuk mendapat nomorIndex dari arrayList bisa menggunakan method indexOf().
+- Untuk mengecek apakah arrayList ada datanya bisa menggunakan method contains().
+
+```
+
+##### Chapter 7 Using the Java Library
+
+```
+1. Contoh penggunaan inheritance dalam class Doctor ada pada page 169.
+2.
+
+Some important poin:
+1. Inheritance di perlukan agar tidak ada banyak duplikat codingan.
+    Inheritance tentu akan mewariskan sifatnya kepada subclassnya, hal ini meliputi instance variable dan method.
+    
 ```
 
 ----------------
 sedikit tambahan
 ----------------
-Java pass by value => chapter 4 page 77.
 
+1. Java pass by value => chapter 4 page 77.
+2. Page 147 belum done
+3. exercise di chapter 6 page 161-164 masih cahya skipp :)
+4. 
     
 
 
