@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                          
+#                                                             
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -126,11 +126,12 @@ termasuk ke dalam Java Development Environment.
 
 ```
 1. Contoh penggunaan inheritance dalam class Doctor ada pada page 169.
-2.
+2. exercise chapter 7 ada di package Inheritance (page 192-194).
 
 Some important poin:
 1. Inheritance di perlukan agar tidak ada banyak duplikat codingan.
-    Inheritance tentu akan mewariskan sifatnya kepada subclassnya, hal ini meliputi instance variable dan method.
+   Inheritance tentu akan mewariskan sifatnya kepada subclassnya, hal ini meliputi instance variable dan method.
+   Dan main class atau untuk startnya ada di class Mixed2.
     
 ```
 
