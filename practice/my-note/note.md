@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                             
+#                                                                     
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -103,7 +103,7 @@ Perbedaan Break dan Return:
 
 ##### Chapter 6 Using the Java Library
 
-```angular2html
+```
 1. Fix the DotCom code (improved DotCom class).
 2. Class DotComBust -> start from page 146.
 3. Final version of the DotCom class, because have to add a new getter and setter method (page 150).
@@ -127,12 +127,16 @@ termasuk ke dalam Java Development Environment.
 ```
 1. Contoh penggunaan inheritance dalam class Doctor ada pada page 169.
 2. exercise chapter 7 ada di package Inheritance (page 192-194).
+3. Class MonsterTestDrive adalah salah satu contoh penggunaan inheritance (turunan), 
+   dengan menggunakan kata kunci extends -> page 193.
 
 Some important poin:
 1. Inheritance di perlukan agar tidak ada banyak duplikat codingan.
    Inheritance tentu akan mewariskan sifatnya kepada subclassnya, hal ini meliputi instance variable dan method.
    Dan main class atau untuk startnya ada di class Mixed2.
-    
+2. Override -> digunakan untuk mengabaikan method dari kelas parentnya (superclass).
+   Dilakukan dengan cara mendeklarasikan kembali method di dalam subclass-nya.
+3. Overriding -> 
 ```
 
 ----------------
@@ -142,8 +146,6 @@ sedikit tambahan
 1. Java pass by value => chapter 4 page 77.
 2. Page 147 belum done
 3. exercise di chapter 6 page 161-164 masih cahya skipp :)
-4. 
-    
 
 
 

@@ -8,8 +8,8 @@ package Inheritance;
 public class C extends B {
 
     // Deklarasikan kembali, berarti melakukan override.
-    // Jadi method m1 yang akan digunakan adalah yang ada pada method ini.
-    void m1() {
+    // Jadi method m3 yang akan digunakan adalah yang ada pada method ini.
+    void m3() {
         System.out.println("C's m3, " + (ivar + 6));
     }
 }
