@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                                     
+#                                                                            
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -122,7 +122,7 @@ termasuk ke dalam Java Development Environment.
 
 ```
 
-##### Chapter 7 Using the Java Library
+##### Chapter 7 Inheritance/ Pewarisan (extends)
 
 ```
 1. Contoh penggunaan inheritance dalam class Doctor ada pada page 169.
@@ -136,9 +136,18 @@ Some important poin:
    Dan main class atau untuk startnya ada di class Mixed2.
 2. Override -> digunakan untuk mengabaikan method dari kelas parentnya (superclass).
    Dilakukan dengan cara mendeklarasikan kembali method di dalam subclass-nya.
-3. Overriding -> 
+3. Overriding -> adalah kondisi dimana ada dua buah method yang memiliki nama yang sama.
 ```
 
+##### Chapter 8 Serious Polymorphism()
+
+```
+1. Kelas konkret. 
+   Kelas konkret adalah kelas yang cukup spesifik untuk diinstansiansi.
+   Sebuah kelas konkret berarti tidak apa-apa untuk membuat objek dari jenis itu.
+   (Jadi class bisa langsung dijadikan sebagai objeck-nya). Sehingga saat mendesain
+   pewarisan kelas,kita harus memutuskan kelas mana yang abstrak dan mana yang konkret.
+        
 ----------------
 sedikit tambahan
 ----------------
