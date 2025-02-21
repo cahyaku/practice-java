@@ -4,7 +4,7 @@
 public class HeartPattern {
     private static void heartPattern1() {
         // declare and initialize variable for output size
-        final int size = 4  ;
+        final int size = 4;
 
         // nested for loop to print the upper part of Heart
         for (int m = 0; m < size; m++) {
@@ -21,8 +21,7 @@ public class HeartPattern {
             System.out.print(System.lineSeparator());
         }
         // for loop to print the lower part of Heart
-        for (int m = 1; m <= 2 * size; m++)
-        {
+        for (int m = 1; m <= 2 * size; m++) {
             for (int n = 0; n < m; n++) {
                 System.out.print(' ');
             }
@@ -39,7 +38,8 @@ public class HeartPattern {
 
 //        final String msg = "Cahya Kumala";
 //        final String msg = "BUNDA LOPEZZ";
-        final String msg = "AYONG";
+//        final String msg = "AYONG";
+        final String msg = "Nilam";
 
         // nested for loop to print the upper part of Heart
         for (int m = 0; m < size; m++) {
@@ -71,12 +71,10 @@ public class HeartPattern {
                         } else {
                             System.out.print(' ');
                         }
-                    }
-                    else {
+                    } else {
                         System.out.print('*');
                     }
-                }
-                else {
+                } else {
                     System.out.print('*');
                 }
             }

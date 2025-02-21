@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                                            
+#                                                                                                      
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -146,15 +146,33 @@ Some important poin:
    Kelas konkret adalah kelas yang cukup spesifik untuk diinstansiansi.
    Sebuah kelas konkret berarti tidak apa-apa untuk membuat objek dari jenis itu.
    (Jadi class bisa langsung dijadikan sebagai objeck-nya). Sehingga saat mendesain
-   pewarisan kelas,kita harus memutuskan kelas mana yang abstrak dan mana yang konkret.
-        
-----------------
-sedikit tambahan
-----------------
+   pewarisan kelas,kita harus memutuskan kelas mana yang abstrak dan mana yang konkret.        
+2. Abstrak class dapat dibuat dengan menggunakan kata kunci abstrak sebelum kata kunci class.
+   Di Java abstrak class adalah kelas yang tidak bisa dibuat instance-nya sendiri. 
+   ex. 
 
+>   abstract class Canine extends Animal {
+>       public void roam() { }
+>   }
+
+3. Kita tidak boleh membuat objek atau instance variable dari kelas abstrak langsung di dalamnya.
+   Tapi jika ingin membuat objek dari kelas lain yang tidak abstrak di dalam superclass yang abstrak ini diperbolehkan,
+   sama seperti pada page 201.
+
+4. Perbedaan kelas abstrak kelas dengan kelas concrete.
+   Abstract class VS concrete class:
+   
+   Abstract class adalah:  
+```
+
+----------------------------
+Beberapa hal yang saya skip
+----------------------------
+
+```
 1. Java pass by value => chapter 4 page 77.
-2. Page 147 belum done
-3. exercise di chapter 6 page 161-164 masih cahya skipp :)
+2. exercise di chapter 6 pazge 162 & 164 masih cahya skipp :)
+```
 
 
 
