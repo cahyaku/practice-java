@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                                                                      
+#                                                                                                                                                              
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -163,6 +163,46 @@ Some important poin:
    Abstract class VS concrete class:
    
    Abstract class adalah:  
+
+5. Building our own Dog-specific list 1, page 206 (class MyDogList) package polymorphism.
+
+6. Building our own Dog-specific list 2, page 207 (class MyAnia) package polymorphism.
+   
+Some important point:
+😮 Java interfaces adalah blueprint kelas yang mendefinisikan method tanpa implementasi. Interface hanya dapat berisi 
+   konstanta, method statis, dan tipe bersarang.
+   Dengan interfaces akan membantu menciptakan desain yang fleksibel dan modular. 
+😮 Kelas abstrak berart kelas tersebut harus diperluas jadi harus di extends.
+😮 Abstrak method berarti, method harus dighanti jadi method harus di override.
+😮 Untuk mengakses metode antarmuka, antarmuka/abstrak harus "diimplementasikan" 
+   oleh kelas lain dengan kata kunci implement.
+😮 Membuat method abstrak, untuk membuat/ medeklarasikan method abstrak anda harus tandai kelas sebagai abstrak juga.    
+   Karena anda tidak dapat memiliki methode abstrak dalam kelas non abstrak.
+   Kesimpulannya, method abstrak class-nya juga wajib ditandai sebagai abstrak.
+   Tapi kita juga dapat mencampurkan method abstrak dan method non-abstrak di kelas abstrak 
+   (Kelas abstrak bisa punya method non-abstrak).
+😮 Ketika kami mengatakan "harus meng-implement method abstrak", itu berarti anda harus memberikan tubuh.
+   Anda harus membuat method non-abstrak di kelas anda dengan method signature yang sama(nama dan argmen)
+   dan tipe pengembalian yang kompapitabel dengan tiape pengembalian yang dideklarasikan dari method abstrak.
+😮
+
+
+
+Hal yang membingungkan?
+1. Kapan saja kita perlu menggunakan/membuat abstrak class?
+2. Apa sebenaranya polymorphism itu?
+
+```
+
+```
+DUMB Questions page 203
+-----------------------
+1. Apa gunanya metode abstrak? Saya pikir
+inti dari kelas abstrak adalah memiliki kesamaan
+kode yang dapat diwarisi oleh subclass.
+
+
+
 ```
 
 ----------------------------
@@ -172,6 +212,7 @@ Beberapa hal yang saya skip
 ```
 1. Java pass by value => chapter 4 page 77.
 2. exercise di chapter 6 pazge 162 & 164 masih cahya skipp :)
+3. page 205 masih skip (sharpen your pencil).       
 ```
 
 
