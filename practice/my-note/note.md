@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                                                                                                                              
+#                                                                                                                                                                                                                      
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -184,14 +184,18 @@ Some important point:
 😮 Ketika kami mengatakan "harus meng-implement method abstrak", itu berarti anda harus memberikan tubuh.
    Anda harus membuat method non-abstrak di kelas anda dengan method signature yang sama(nama dan argmen)
    dan tipe pengembalian yang kompapitabel dengan tiape pengembalian yang dideklarasikan dari method abstrak.
-😮
-
+😮 Polymorphism berarti banyak bentuk -> ada di page 2015.
+😮 Ketika anda meletakan sebuah objek dalam ArrayList<Object>, kita hanya bisa memperlakukannya sebagai objek.
+   Ketika anda mendapatkan referensi dari ArrayList<Object>, referensi tersebut selalu bertipe objek.
+😮 Untuk dapat mengembalikan sifat objek sesuai dengan kondisi awalnya, dapat dialkukan dengan
+   melempar kembali referensi objek ke tipe aslinya -> ada di page 216.
+😮 Mengekpos method berarti membuat semuah method dapat diakses, biasanya dengan menandainya sbg public.
 
 
 Hal yang membingungkan?
 1. Kapan saja kita perlu menggunakan/membuat abstrak class?
 2. Apa sebenaranya polymorphism itu?
-
+3. Polimorphic itu apa sebenarnya? dan digunakan saat kondisi bagaimana saja?
 ```
 
 ```
@@ -201,8 +205,18 @@ DUMB Questions page 203
 inti dari kelas abstrak adalah memiliki kesamaan
 kode yang dapat diwarisi oleh subclass.
 
+2. page 210.
+   Apakah kelas objek bersifat abtrak?
+   Answer: Tidak, kelas objek tidak bersifat abstrak karena memiliki kode implementasi method
+           yang dapat diwarisi dan digunakan oleh semua kelas secara langsung, tanpa harus mengganti method.
 
-
+3. page 210.
+   Jadi, apakah adil untuk mengatakan bahwa tujuan utama dari tipe Object adalah agar Anda dapat
+   menggunakannya untuk argumen polimorfik dan tipe kembalian? Seperti di ArrayList?
+   Answer: 
+   Kelas Object bertindak sebagai tipe polimorfik untuk metode yang perlu bekerja pada kelas apa pun
+   dan untuk menyediakan kode metode nyata untuk semua objek di Java saat runtime (dan menaruhnya di dalam
+   kelas Object, semua kelas lain akan mewarisinya).
 ```
 
 ----------------------------
@@ -215,15 +229,35 @@ Beberapa hal yang saya skip
 3. page 205 masih skip (sharpen your pencil).       
 ```
 
+```
+Some important method:
+1. getClass(); -> page 209.
+   Untuk mengembalikan tempat objek tesebut diinstansiasi (instantited).
+   Example:
+   
+   Cat c = new Cat();
+   System.out.println(c.getClass());
+   // Output: class Cat
 
-
-
-
-
-
-
-
-
-
-
-
+2. hashCode();
+   Untuk mencetak kode hash objek, anggap saja sebagai ID yang unik
+   Example:
+   
+   Car c = new Cat();
+   System.out.println(c.hashCode());
+   //Output: 8202111
+   
+3. toString();
+   Untuk mencetak pesan string dengan nama kelas dan beberapa nomor lain yang jarang kita pedulikan.
+   Example:
+   
+   Cat c = new Cat();
+   System.out.println(c.toString());
+   //Output:
+   Cat@7d277f
+ 
+4. Membuat arrayList yang dideklarasikan untuk menampung objek Dog.
+   example: yang lainnya juga ada pada pege 211.
+   ArrayList<Dog> myDogArrayList = new ArrayList<Dog>();
+   LEbih lengkap, dan penting ada di page 211.
+```
