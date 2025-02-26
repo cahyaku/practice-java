@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                                                                                                                                                                                      
+#                                                                                                                                                                                                                                                                                                                                          
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -217,6 +217,91 @@ kode yang dapat diwarisi oleh subclass.
    Kelas Object bertindak sebagai tipe polimorfik untuk metode yang perlu bekerja pada kelas apa pun
    dan untuk menyediakan kode metode nyata untuk semua objek di Java saat runtime (dan menaruhnya di dalam
    kelas Object, semua kelas lain akan mewarisinya).
+   
+4. page 225.
+   Apa yang benar-benar Anda dapatkan dari sebuah antarmuka (Interface)?
+   Answer:
+   Karena dengan menggunakan antarmuka bukannya subclas conret (atau bahkan superclass abstrak)
+   sebagai argumen dan tipe pengembalian, Anda dapat mengoper apa pun yang mengimplementasikan Interface tersebut. 
+   Dengan sebuah Interface, sebuah class tidak harus bersalah dari satu pohon pewarisan.
+   Jadi kita bisa memperlakukan sebuah objek berdasarkan perannya, bukan berdasarkan dari mana objek tersebut
+   diintamsiasi. Fakta bahwa tidak dapat memasukkan kode implementasi ternyata tidak menjadi masalah bagi sebagian besar
+   desain yang bagus, karena metode antarmuka tidak akan masuk akal jika diimplementasikan dengan cara yang umum. 
+   Dengan kata lain, sebagian besar interface perlu ditimpa (override) bahkan jika metode itu tidak dipaksa untuk menjadi abstrak.
+
+5. page 226, bagian akhir (di bawah).
+   Akan lebih baik jika class dapat mengimplementasikan beberapa Interface.
+   Caranya dengan menggunakan kata kunci implement Pet, Saveable, Paintable.
+   Example:
+   public class Dog extends Animal implement Pet, Saveable, Painable {....}
+ 
+ 
+   PENTING, SEMUA PENTING :)      
+   Jadi kesimpulan antara extend dan implement adalah:
+   - Kita hanya bisa malakukan 1 kali extends dari sebuah kelas.
+   - Tapi bisa melakukan lebih dari 1 kali implements dari beberapa interface.
+   - Dan bisa melakukan implement, meskipun sudah melakukan extends dari kelas lain (bisa digunakan secara bersamaan).
+   - Kelas Java hanya bisa memiliki 1 parent (superclass),dan parent class akan mendefinisikan siapa anda.
+     Tapi kita dapat mengimplementasikan beberapa interface, 
+     Interface tersebut akan mendefinisikan peran yang dapat anda mainkan.
+
+
+6. page 227.
+   Bagaimana anda tahu akan membuat sebuah kelas, subkelas, kelas abstrak, atau sebuah interface?
+   a. Membuat kelas yang tidak memperluas apa pun (selain Object) ketika kelas baru Anda tidak 
+      lulus tes IS-A untuk tipe lain.
+   b. Membuat subkelas (dengan kata lain, memperluas kelas/extends) hanya jika perlu membuat versi yang lebih spesifik
+      versi dari sebuah kelas dan perlu mengganti atau menambahkan perilaku baru.
+   c. Gunakan kelas abstrak saat ingin mendefinisikan template untuk sekelompok subkelas, dan memiliki setidaknya 
+      beberapa kode implementasi yang dapat digunakan oleh semua subkelas. Jadikan kelas abstrak ketika 
+      ingin menjamin bahwa tidak ada yang bisa membuat objek dari tipe tersebut.
+   d. Gunakan antarmuka (Interface) ketika ingin mendefinisikan peran yang dapat dimainkan oleh kelas lain,
+      di mana pun kelas-kelas tersebut berada di pohon pewarisan. 
+
+7. page 228.
+   Bagaimana jika ingin membuat subkelas konkret dan perlu mengganti sebuah metode, tetapi
+   kita menginginkan perilaku dalam versi superclass dari metode tersebut? 
+   Dengan kata lain, bagaimana jika kita tidak perlu mengganti metode dengan penggantian,
+   tetapi kita hanya ingin menambahkannya dengan beberapa kode spesifik tambahan.
+   Answer:
+
+8. Super keyword ada di page 228.
+   Contoh override juga ada di page 228.
+
+```
+
+```
+Point penting terkait dengan interface:
+
+1. Kelas abstrak: digunakan saat kita tidak ingin ada orang yang membuat objek baru dari tipe kelas tersebut. 
+2. Kelas abstrak bisa memiliki method abstrak dan method non-abstrak.
+3. Jika sebuah kelas memiliki satu method abstrak, kelas tersebut harus ditandai sebagai abstrak.
+4. Method abstrak tidak memiliki body (tubuh), sehingga selalu di akhiri dengan (); semicolon.
+5. Semua method abstrak harus diimplementasikan pada subkelas konkret pertama di dalam pohon pewarisan.
+6. Metode dapat dideklarasikan dengan argumen Objek dan/atau tipe pengembalian. 
+7. Kita dapat memanggil metode pada sebuah objek hanya jika metode tersebut berada di dalam kelas (atau interface/antarmuka)
+   yang digunakan sebagai tipe variabel referensi, terlepas dari tipe objek yang sebenarnya. Jadi, sebuah
+   variabel referensi bertipe Object hanya bisa digunakan untuk memanggil metode yang didefinisikan dalam kelas
+   Object, terlepas dari jenis objek yang menjadi referensi.
+8. Variabel referensi bertipe Object tidak dapat ditetapkan ke tipe referensi lain
+   tanpa cast. Cast dapat digunakan untuk menetapkan variabel referensi dari satu tipe ke
+   variabel referensi dari subtipe, tetapi pada saat runtime, cast akan gagal jika objek pada
+   heap BUKAN tipe yang kompatibel dengan cast.
+   Contoh: Dog d = (Dog) x.getObject(aDog);
+9. Semua objek keluar dari ArrayList<Objek> sebagai tipe Object (artinya, mereka bisa
+   direferensikan hanya dengan variabel referensi Object, kecuali jika Anda menggunakan cast).
+10. Hanya bisa memiliki 1 super class, jadi 1 kali extend saja.
+11. Interface seperti kelas abstrak murni 100%. Karena Interface hanya mendefinisikan method abstract.
+12. Membuat interface dengan kata kunci interface, bukan menggunakan kata kunci class.
+13. Menerapkan interface dengan kata kunci implements
+14. Kelas dapat mengimplementasikan beberapa interfaces.
+15. Kelas yang mengimplementasikan interfaces harus mengimplementasikan semua method interfaces,
+    karena semua method interfaces secara implisit bersifat public dan abstrak.
+16. Super keyoword adalah kata kunci yang digunakan untuk memanggil versi super sebuah method dari subkelas 
+    yang menimpa method. Example:  super.runReport().
+
+Untuk memanggil versi superclass dari sebuah metode dari subkelas yang menimpa metode
+menggunakan kata kunci super. Contoh: super.runReport();
 ```
 
 ----------------------------
@@ -260,4 +345,15 @@ Some important method:
    example: yang lainnya juga ada pada pege 211.
    ArrayList<Dog> myDogArrayList = new ArrayList<Dog>();
    LEbih lengkap, dan penting ada di page 211.
+   
+5. Kata kunci interface untuk membuat interface, ini sebagai pengganti kata kunci kelas,
+   penjelasan ada di page 224.
+     
+6. Untuk implement an interface gunakan kata kunci "implement" yang diikuti dengan nama interfacenya.
+   Meskipun sduah mengimplementasikan sebuah interface, anda masih bisa memperluas kelas deangan melakukan extend.
+   Example ada pada page 224. Saat kita menggunakan implements, kita wajib menerapkan method yang ada pada interface.
+   
+7. Method abstrak tidak memiliki body jadi diakhiri dengan(); bukan (){}. 
+
+
 ```
