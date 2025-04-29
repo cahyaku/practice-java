@@ -15,7 +15,7 @@ Perbedaan Break dan Return:
 - break hanya akan mengakhiri loop saja.
 ```
 
-#                                                                                                                                                                                                                                                                                                                                          
+#                                                                                                                                                                                                                                                                                                                                               
 
 #### Inisiatif sendiri („• ֊ •„)੭ 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
 
@@ -304,6 +304,14 @@ Untuk memanggil versi superclass dari sebuah metode dari subkelas yang menimpa m
 menggunakan kata kunci super. Contoh: super.runReport();
 ```
 
+### Prep code dan test code
+
+```angular2html
+1. Prep code contoh 1 dengan nama class NumberGuessingGame.
+2. Test code dari contoh 1 atas ada di class NumberGuessingGameTestDrive.
+
+```
+
 ----------------------------
 Beberapa hal yang saya skip
 ----------------------------
@@ -354,6 +362,4 @@ Some important method:
    Example ada pada page 224. Saat kita menggunakan implements, kita wajib menerapkan method yang ada pada interface.
    
 7. Method abstrak tidak memiliki body jadi diakhiri dengan(); bukan (){}. 
-
-
 ```
