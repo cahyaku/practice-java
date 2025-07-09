@@ -33,7 +33,7 @@ Perbedaan Break dan Return:
 
 #
 
-##### Chapter 1 Breaking The Surface
+### Chapter 1 Breaking The Surface
 
 ```
 1. exercise 1 (code magnet) => page 20 (file Shuffle1)
@@ -42,8 +42,8 @@ Perbedaan Break dan Return:
 4. exercise 4 => Mixed Message (page 23)
 5. TTS
 ```
-
-##### Chapter 2 A trip to Objectville
+#
+### Chapter 2 A trip to Objectville
 
 ```
 1. Create guess game
@@ -56,8 +56,8 @@ Perbedaan Break dan Return:
 3. exercise 2(code magnet) -> page 43 (class DrumKit dan class DrumKitTestDrive)
 4. exercise 3 puzzle -> page 44 (class Echo, dan class EchoTestDriver)
 ```
-
-##### Chapter 3 Know Your Variable
+#
+### Chapter 3 Know Your Variable
 
 ```
 1. Try to create simple array (class Dog)
@@ -68,8 +68,9 @@ Perbedaan Break dan Return:
 4. Exercise 3 page 65 (pool puzzle) => class Triangle
 5. Exercise 4 page 66 => class HeapQuiz
 ```
+#
 
-##### Chapter 4 How Objects Behave
+### Chapter 4 How Objects Behave
 
 ```
 1. Membuat class sederhana dengan 1 method tetapi berbeda instance variabel => class MyDog, dan run di MyDogTestDrive. 
@@ -85,8 +86,9 @@ Perbedaan Break dan Return:
 8. Exercise 2 (mixed message) page 90 => class Mix4.
 9. Exercise 3 (pool puzzle) page 91 => class Puzzle4 dan class puzzle4b
 ```
+#
 
-##### Chapter 5 Extra-Strength Methods
+### Chapter 5 Extra-Strength Methods
 
 ```
 1. Create Battleship-style, game(Sink a Dot Com)
@@ -100,8 +102,9 @@ Perbedaan Break dan Return:
    Tapi saya memilih mmebuat clas baru yang di beri nama DotCom class. 
 6. Class GameHelper yang akan dipanggil pada class simpleDotComTestDrive => page 112.
 ```
+#
 
-##### Chapter 6 Using the Java Library
+### Chapter 6 Using the Java Library
 
 ```
 1. Fix the DotCom code (improved DotCom class).
@@ -121,8 +124,9 @@ termasuk ke dalam Java Development Environment.
 - Untuk mengecek apakah arrayList ada datanya bisa menggunakan method contains().
 
 ```
+#
 
-##### Chapter 7 Inheritance/ Pewarisan (extends)
+### Chapter 7 Inheritance/ Pewarisan (extends)
 
 ```
 1. Contoh penggunaan inheritance dalam class Doctor ada pada page 169.
@@ -138,8 +142,9 @@ Some important poin:
    Dilakukan dengan cara mendeklarasikan kembali method di dalam subclass-nya.
 3. Overriding -> adalah kondisi dimana ada dua buah method yang memiliki nama yang sama.
 ```
+#
 
-##### Chapter 8 Serious Polymorphism()
+### Chapter 8 Serious Polymorphism()
 
 ```
 1. Kelas konkret. 
@@ -191,7 +196,25 @@ Some important point:
    melempar kembali referensi objek ke tipe aslinya -> ada di page 216.
 😮 Mengekpos method berarti membuat semuah method dapat diakses, biasanya dengan menandainya sbg public.
 
+```
+#
 
+### Chapter 9 Life and Death of an Object.
+```angular2html
+Nothing special, jadi notesnya langsung di google docs saja.
+```
+
+#
+
+### Chapter 10  Life and Death of an Object.
+```angular2html
+1. Exercise 1 in chapter 10 (page 312) => Class FullMoons.
+```
+#
+
+
+
+```
 Hal yang membingungkan?
 1. Kapan saja kita perlu menggunakan/membuat abstrak class?
 2. Apa sebenaranya polymorphism itu?
