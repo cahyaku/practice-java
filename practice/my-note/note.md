@@ -206,12 +206,20 @@ Nothing special, jadi notesnya langsung di google docs saja.
 
 #
 
-### Chapter 10  Life and Death of an Object.
+### Chapter 10 Life and Death of an Object.
 ```angular2html
 1. Exercise 1 in chapter 10 (page 312) => Class FullMoons.
 ```
 #
 
+### Chapter 11 Risky Behavior (Exception Handling).
+```angular2html
+Try to create a simple MIDI music player.
+1. Exercise 1 in chapter 10 (page 312) => Class FullMoons.
+2. Exercise 2 in chapter 10 (page 328) => Class TestExceptions, menentukan hasil outputnya.
+untuk lebih jelas coba debugging class TestExceptions.
+```
+#
 
 
 ```
